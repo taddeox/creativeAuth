@@ -1,0 +1,35 @@
+nohup: ignoring input
+login
+{ _id: 5a25bfeab2b3da7544274416,
+  email: 'taddeox@mial.com',
+  hashed_password: 'XohImNooBHFR0OVvjcYpJ3NgPQ1qq73WKhHvch0VQtg=',
+  username: 'me',
+  __v: 0,
+  color: 'Green' }
+login
+{ _id: 5a25bfeab2b3da7544274416,
+  email: 'taddeox@mial.com',
+  hashed_password: 'XohImNooBHFR0OVvjcYpJ3NgPQ1qq73WKhHvch0VQtg=',
+  username: 'me',
+  __v: 0,
+  color: 'Green' }
+Begin exports.signup
+after new user exports.signup
+after hashing user exports.signup
+after email user exports.signup
+(node:17541) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+In exports.signup
+null
+login
+{ _id: 5a2966b4a7708f8544812b4c,
+  email: 'hi@bye.com',
+  hashed_password: 'vvoVbwKD6wBivrm4bhakE+HPjFE15VGNXE+jIc4Me2s=',
+  username: 'francine',
+  __v: 0,
+  color: 'Green' }
+Begin exports.signup
+after new user exports.signup
+after hashing user exports.signup
+after email user exports.signup
+In exports.signup
+null

@@ -1,0 +1,26 @@
+<!doctype html>
+<html ng-app="myApp">
+
+<head>
+    <title>User Login and Sessions</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/styles.css" />
+</head>
+
+<body>
+    <div ng-controller="myController">
+        <h1 id="welcomeText">Are you some kind of GENIOUS?!
+        </h1>
+        <p>Seriously, that was some amazing riddle solving you did back there! You had to have used google, didn't you? Come on admit it, there is no way some chump like you could have solved this all on your own!!! Maybe you worked with a partner? There has to be some explanation! I will not believe that you, YOU of all people, could have solved these crazy hard riddles without help! I spent years just thinking them up!! I don't care what you say, I know what I know - you must have cheated!!</p>
+        <a id="logoutLink" href="/logout">logout</a>
+    </div>
+    <span id="indexMsg">
+        <!--%= msg %-->
+    </span>
+    <span id="colorText">
+        <%= color %>
+      </span>
+    <script src="http://code.angularjs.org/1.2.9/angular.min.js"></script>
+    <script src="/static/js/my_app.js"></script>
+</body>
+
+</html>

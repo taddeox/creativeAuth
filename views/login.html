@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>User Login and Sessions</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/styles.css" />
+</head>
+
+<body>
+
+
+<h1 id="header">Solve the riddles to uncover the login credentials!</h1>
+<div class="center">
+<div class="wrapper">
+    <div class="box a" id="boxa">
+
+    </div>
+    
+    <div class="box b" id="boxb">
+    <div class="form-container">
+        <p class="form-header">Login</p>
+        <form method="POST" action="/login">
+            <label>Username:</label>
+            <input type="text" id="username" name="username"><br>
+            <label>Password:</label>
+            <input type="password" id="password" name="password"><br>
+            <input type="submit" id="login" value="Login">
+        </form>
+    </div>
+    </div>
+    
+    <div class="box c" id="boxc">
+
+    </div>
+    
+    <div class="box d" id="boxd">
+    <p>
+    Username:<br>
+    A natural state, I'm sought by all.<br>
+    Go without me, and you shall fall.<br>
+    You do me when you spend,<br>
+    and use me when you eat to no end.<br>
+    <br>
+    What am I?<br>
+    (all lowercase)
+    </p>    
+    </div>
+    
+    <div class="box e" id="boxe">
+
+    </div>
+
+    <div class="box f" id="boxf">
+    <p>
+    Password:<br>
+    Poke your fingers in my eyes and I will open wide my jaws. Linen cloth, quills, or paper, my greedy lust devours
+them all.<br>
+    <br>
+    What am I?<br>
+    (all lowercase)
+    </p>    
+    </div>
+</div>
+</div>
+
+    <hr>
+    <span id="loginMsg">
+    <%= msg %>
+    </span>
+</body>
+
+</html>
